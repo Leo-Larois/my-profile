@@ -1,0 +1,108 @@
+body {
+	font-family: Times, serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: lightgrey;
+	color: rgb(50, 50, 50);
+	}
+
+
+
+
+#Titre_de_la_Page	{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+	color: Black;
+	}
+
+
+
+.titre	{
+	text-align: center;
+	font-size: 20px;
+	}
+
+
+
+p {
+	text-align: justify;
+	margin:  16px;
+	}
+
+
+
+a {
+	text-decoration: none;
+	color:  blue;
+	}
+
+a:hover {
+	color: red;
+	}
+
+
+
+li	{
+	text-align: center;
+	text-decoration: none;	
+	}
+
+
+.box {
+	background: whitesmoke;
+	padding:  10px;
+	border-radius:  10px;
+	box-shadow: 0 5px 5px;
+	border: 2px solid black;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	}
+
+@media (max-width : 1080px) {
+	.box {
+		width: 500px;
+	}
+}
+
+@media (max-width : 720px) {
+	.box {
+		width: 400px;
+	}
+}
+
+
+
+#Photo_Présentation {
+	resize: width 500px;
+	height: 400px;
+	border-radius: 99%;
+	text-align: center;
+	}
+
+.img_center {
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+.bas_de_page{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center
+}
+.bas_de_page li {
+	display: inline;
+	padding: 10px;
+	}
+.bas_de_page i{
+	font-size: 50px;
+	color: grey;
+}
+
+.bas_de_page i:hover{
+	color: rgb(230,230,230);
+}
